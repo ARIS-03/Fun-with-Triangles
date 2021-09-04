@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IS Triangle?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <nav>
+        <a class = "navlink"href="#checkifTriangle"> Check If Triangle? </a>
+        <a class="navlink"href="#triangleQuiz"> QuizTime </a>
+        <a class="navlink"href="#hypotenuse">Calculate Hypotenuse</a>
+
+        <a class="navlink"href="#Area">Find the Area</a>
+
+        
+    </nav>
+
+
+    <section class="psection" id="checkifTriangle">
+
+
+    <h1>Is Triangle?</h1>
+    <label for ="angle1">angle1</label>
+    <input type="number"class = "angle-input" />
+    <label for="angle2">angle2</label>
+    <input type="number"class = "angle-input"/>
+    <label for="angle3">angle3</label>
+    <input type="number"class = "angle-input"/>
+    <button id ="is-triangle-btn">Is Triangle?</button>
+    <div id ="output"></div>
+
+
+
+    <section id="triangleQuiz">
+        <h1>Quiz on Triangles</h1>
+
+        <form action="" id="quizform">
+            <div class="container">
+
+                <p> Question1: What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+
+                <input type="radio" name="question1" value="45">40'</input>
+                <input type="radio" value="90"name="question1">90'</input>
+                <input type="radio" value="60"name="question1">60'</input>
+
+
+            </div>
+            <div class="container">
+
+                <p>Question2: If a triangle has an angle of 90 degrees, what is it called? </p>
+
+                <input type="radio" name="question2" value="Obtuse">Obtuse</input>
+                <input type="radio" value="Acute"name="question2">Acute</input>
+                <input type="radio" value="Right-Angled"name="question2">Right-Angled</input>
+
+
+            </div>
+
+        </form>
+        <button id="quizBtn">Submit Answers</button>
+        <div id="quizDisplay"></div>
+    </section>
+
+
+
+
+
+    <section class="psection" id="hypotenuse">
+        <h1> Calculate hypotenuse</h1>
+          
+        <label for="side1">Side 1</label>
+        <input class="sideInput" type="number"/>
+  
+        <label for="side2">Side 2</label>
+        <input class="sideInput" type="number"/>
+  
+        <button id="hypoBtn">Calculate hypotenuse</button>
+  
+        <h3 id="hypoDisplay"></h3>
+      </section>
+  
+       
+
+
+
+            <section  id="area">
+        
+                <h1>Calculate Area of Triangles</h1>      
+                
+                <label for="side1">Base:</label>
+                <input class="areaInput" type="number">
+        
+                <label for="side2">Height:</label>
+                <input class="areaInput" type="number">
+        
+                <button id="areaBtn">Calculate Area</button>
+        
+                <h3 id="areaDisplay"></h3>
+            </section> 
+
+            <fotter class="footer">
+
+                <a class="linkfooter" href="https://github.com/ARIS-03">Github</a>
+                <a class="linkfooter" href="https://www.linkedin.com/in/aris-ahmed-73a129142/">LinkedIn</a>
+                <a class="linkfooter" href="https://www.linkedin.com/in/aris-ahmed-73a129142/">Twitter</a>
+            </fotter>
+
+
+            <script src="istriangle.js"></script
+                
+</body>
+
+</html>
