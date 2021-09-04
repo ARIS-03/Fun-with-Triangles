@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&display=swap');
+*,html{
+  margin: 0;
+  padding:0;
+  font-family: 'Arimo', sans-serif;
+  
+}
+
+nav{
+
+    background-color:#2316d6;
+    text-align: end;
+    padding: 1rem;
+
+}
+
+
+.navlink,.linkfooter{
+    text-decoration: none;
+    font-size: larger;
+    margin:2%;
+    color:white;
+    padding:0.5rem;
+ 
+}
+
+.navlink:hover{
+    background-color: black;
+}
+
+section{
+
+    padding:2rem;
+    display:flex;
+    flex-direction: column; 
+}
+
+.psection{
+    color:rgb(3, 3, 3);
+    background-size: cover;
+    
+}
+
+input,label,button,p{
+
+    margin:0.5rem;;
+    padding:0.3rem 0;
+    width:fit-content;
+    align-self: center;
+}
+
+
+#checkBtn,.quizBtn,#hypoBtn,#areaBtn{
+    background-color: #0f1cd6;
+    border:none;
+    padding:0.5rem;
+    border-radius: 0.2rem;
+}
+
+.footer{
+
+    text-align: center;
+    background-color:#0f1cd6;
+    padding: 1rem;
+}
+
+
+
